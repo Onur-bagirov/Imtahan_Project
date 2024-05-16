@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Teko:wght@300..700&display=swap');
+
+#Project_1{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0;
+}
+
+.Word_1{
+    display: flex;
+    flex-direction: column;
+}
+
+.Word{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Word_1_font{
+    display: flex;
+    font-size: 80px;
+    color: black;
+}
+
+.Word_2_font{
+    display: flex;
+    font-size: 30px;
+    color: #e9204f;
+}
+
+.anton-regular_1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Foto_1{
+    width:400px;
+    height: 400px;
+    position: relative;;
+}
+
+.Word_2{
+    display: flex;
+    font-size:23px;
+    color: #ffffff;
+}
+
+
+.Word_3{
+    display: flex;
+    font-size: 20px;
+    color: wheat;
+}
+
+.Word_1{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.Word_1:hover{
+    opacity: 1;
+}
+
+.Foto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.Daire{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Daire_1{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border:1px solid #e9204f;
+    border-radius: 100%;
+    background-color: #e9204f;
+}
+
+.Daire_2{
+    display: flex;
+    border:1px solid #e9204f;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+#Part_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #1b1b1b;
+    height: 50vh;
+    padding: 10px 0 20px;
+}
+
+#Part_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    height: 30vh;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.Part_2_1_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.Part_2_1_1:hover{
+    color: #e9204f;
+}
+
+.Part_border{
+    display: flex;
+    border:1px solid  #e9204f;
+    width: 250px;
+    height:70px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.Part_border:hover{
+    background-color: #e9204f;
+}
+
+.Daire_3{
+    display: flex;
+    border: 1px solid #e9204f;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.Daire_3:hover{
+    animation-name: goo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: #e9204f;
+}
+
+.Word_animasya{
+    display: flex;
+    cursor: pointer;
+}
+
+.Word_animasya:hover{
+    color: #e9204f;
+}
+
+.Img{
+    padding: 10px 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.Part_1_1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Part_3_2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#Part_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+#animasya{
+    width: 0px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #e9204f;
+    transition: width 2s;
+    transition-timing-function: ease;
+}
+
+.Part_1_animasya:hover #animasya{
+    width: 70px;
+}
+
+#animasya:hover {
+    width: 70px;
+}
+
+.Part_1_animasya :hover{
+    color: #e9204f;
+}
+
+.Part_10_animasya{
+    color: white;
+}
+
+@keyframes goo{
+    from{transform: translate(0px,-20px);}
+    to {transform: translate(0px,0px);}
+}
+
+@media screen and (min-width:700px) {
+    .Foto{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+    }
+
+    #Part_1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+    }
+    .Part_1_1{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #Part_1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 100px;
+        flex-direction: row;
+        background-color: #1b1b1b;
+        height: 50vh;
+    }
+    #Part_2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #161616;
+        height: 30vh;
+        gap: 250px;
+        flex-direction: row;
+    }
+    #Part_3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 500px;
+        flex-direction: row;
+        background-color: #000000;
+    }
+    .Part_1_1{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
